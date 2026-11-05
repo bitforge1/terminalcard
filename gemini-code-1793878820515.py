@@ -2,7 +2,7 @@ import datetime
 import os
 
 def print_card():
-    # צבעים לטרמינל (ANSI escape codes)
+   
     CYAN = "\033[96m"
     GREEN = "\033[92m"
     YELLOW = "\033[93m"
@@ -22,7 +22,7 @@ def print_card():
     
     print(logo)
     print(f"{BOLD}=================================================={RESET}")
-    print(f" {GREEN}Status:{RESET}   Online & Ready to Code 🚀")
+    print(f" {GREEN}Status:{RESET}   Online & Ready to Code ")
     print(f" {GREEN}GitHub:{RESET}   https://github.com/YOUR_USERNAME")
     print(f" {GREEN}Local Time:{RESET} {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"{BOLD}=================================================={RESET}")
